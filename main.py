@@ -22,6 +22,7 @@ def autoplay_audio(file_path: str):
 
 
 autoplay_audio('birthday_song.mp3')
+st.caption('Song: GMS Live - Happy Birthday')
 
 st.title("Haii Nat!")
 
