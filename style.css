@@ -1,6 +1,5 @@
 :root {
-    --st-bg: rgb(14, 17, 23);
-    --st-text: #fff;
+    color-scheme: light only;
 }
 
 [data-testid="stAppViewContainer"]{
