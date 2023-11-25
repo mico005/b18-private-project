@@ -38,18 +38,18 @@ div.css-1n76uvr.e1tzin5v0 div{
 div.css-ocqkz7.e1tzin5v4 {
     padding: 1em;
     border-radius: 1em;
-    
-    background: rgb(254, 243, 179);
-  background: linear-gradient(90deg, rgba(254, 243, 179, 1) 0%, rgba(240, 221, 122, 1) 100%);
+    background-color: #FFFD00;
+    /**background: rgb(254, 243, 179);
+    background: linear-gradient(90deg, rgba(254, 243, 179, 1) 0%, rgba(240, 221, 122, 1) 100%);**/
 }
 
 div.css-ocqkz7.e1tzin5v4 div{
     color:black;
 }
 
-@media (prefers-color-scheme: dark) {
+/**@media (prefers-color-scheme: dark) {
     [data-testid="stAppViewContainer"] {
         background: rgb(254, 243, 179);
         background: linear-gradient(90deg, rgba(254, 243, 179, 1) 0%, rgba(240, 221, 122, 1) 100%);
     }
-}
+}**/
