@@ -3,7 +3,10 @@
 }
 
 [data-testid="stAppViewContainer"]{
-  background-color: #7AC8F0;
+  /*background-color: #7AC8F0;*/
+  
+  background: rgb(122,200,240);
+  background: linear-gradient(360deg, rgba(122,200,240,1) 0%, rgba(255,253,0,1) 100%);
 } 
 [data-testid="stAppViewContainer"] div{
     color: black;
