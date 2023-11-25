@@ -3,7 +3,7 @@
 }
 
 [data-testid="stAppViewContainer"]{
-  background-image: url("./img/./img/background.png");
+  background-image: url("./img/background.png");
   background-size: cover;
   
     /**background: rgb(254, 243, 179);
