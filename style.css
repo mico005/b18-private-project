@@ -15,7 +15,7 @@
 }
 
 [data-testid="stToolbar"] {
-  right: 2rem;
+  right: 1rem;
 }
 
 [data-testid="stVerticalBlock"]>[style*="flex-direction: column;"]>[data-testid="stVerticalBlock"] {
