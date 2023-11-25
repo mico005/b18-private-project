@@ -3,8 +3,11 @@
 }
 
 [data-testid="stAppViewContainer"]{
-    background: rgb(254, 243, 179);
-    background: linear-gradient(90deg, rgba(254, 243, 179, 1) 0%, rgba(240, 221, 122, 1) 100%);
+  background-image: url("./img/./img/background.png");
+  background-size: cover;
+  
+    /**background: rgb(254, 243, 179);
+    background: linear-gradient(90deg, rgba(254, 243, 179, 1) 0%, rgba(240, 221, 122, 1) 100%);**/
 } 
 [data-testid="stAppViewContainer"] div{
     color: black;
