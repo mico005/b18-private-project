@@ -39,6 +39,7 @@ st.write("Disini Aku punya beberapa foto yang mungkin bisa kita kenang sama-sama
 
 col1, col2 = st.columns(2, gap="small")
 
+@st.cache_data
 with col1:
     st.image("./img/NAT_18.jpg",
              caption="Baru nyadar aku punya double chin, tapi gpp soalnya disini kamu cantik soalnya, hehe.")
@@ -51,6 +52,7 @@ with col1:
     st.image("./img/NAT_2.jpg",
              caption="Kok kamu ucul sihh, emang bole serandom itu?")
 
+@st.cache_data
 with col2:
     st.image("./img/NAT_16.jpg",
              caption="Keren uga foto kita 😎")
