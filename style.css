@@ -13,7 +13,8 @@
 }
 
 [data-testid="stHeader"] {
-  background-color: rgba(0,0,0,0);
+    background: rgb(254, 254, 254);
+    background: linear-gradient(180deg, rgba(254,254,254, 1) 0%, rgba(122, 201, 240, 1) 100%);
 }
 
 [data-testid="stToolbar"] {
