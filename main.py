@@ -58,6 +58,7 @@ with col2:
     st.image("./img/NAT_6.jpg", caption="Keknya aku sok cuek banget yah.")
     st.image("./img/NAT_15.jpg",
              caption="Apa persamaan kamu sama nata de coco? ya sama-sama manis lah. hehe")
+    st.image("./img/NAT_21.jpg", caption="Kece abiezz ketua satu ini")
     st.image("./img/NAT_7.jpg", caption="Emang bole secantik itu?")
 
 
