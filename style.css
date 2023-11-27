@@ -26,7 +26,7 @@
     overflow: auto;
 }
  */
-div.block-container.css-12oz5g7.egzxvld2>div {
+div.block-container.css-12oz5g7.egzxvld2>div>div {
     padding: 0.25em;
     border-radius: 1em;
     /*background-color: #f0edd9;*/
@@ -34,7 +34,7 @@ div.block-container.css-12oz5g7.egzxvld2>div {
     background: linear-gradient(180deg, rgba(122,200,240,1) 50%, rgba(255,253,0,1) 100%);
 }
 
-div.block-container.css-12oz5g7.egzxvld2>div>div{
+div.block-container.css-12oz5g7.egzxvld2>div>div div{
     color: black;
 }
 
