@@ -50,6 +50,8 @@ with col1:
              caption="Maap yah, ini aku ss dari story kelasmu dulu 😝")
     st.image("./img/NAT_2.jpg",
              caption="Kok kamu ucul sihh, emang bole serandom itu?")
+    st.image("./img/NAT_13.jpg",
+             caption="Gendut? enggak kok, aku bilang ini gemoyy")
 
 with col2:
     st.image("./img/NAT_16.jpg",
