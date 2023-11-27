@@ -35,6 +35,8 @@ with st.container():
     st.write("Dan, kebetulan aku bisa buat website. Yah ini sih bukan apa-apa, soalnya aku juga masih belajar. Masih banyak orang-orang yang bisa buat website ini lebih menarik. Website ini aku buat untuk kamu sekaligus buat mengenang masa kalo kita pernah sekolah bareng.")
     st.write("Scroll sampe bawah ya, I've got you something little special. hehe")
 
+st.title("Our Photos")
+
 st.write("Disini Aku punya beberapa foto yang mungkin bisa kita kenang sama-sama.")
 
 col1, col2 = st.columns(2, gap="small")
