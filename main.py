@@ -71,13 +71,13 @@ st.write("Sebenernya sih masih banyak lagi, tapi menurutku itu aja sih yang bagu
 with st.container():
     st.title("Birthday Wishes")
     st.write("For your 18th birthday today, I wish you well.")
-    st.write("May God always bless you and your future. ")
+    st.write("May God always bless you now and your future. ")
     st.write("May He also bless your family and your friends all around you.")
     st.write("May you get what you've been wishing for.")
     st.write("May you become a girl who obeys God words.")
     st.write("and May you also become a gorgeous adorable girl.")
 
-st.write("I also want to confess that I :heart: You, since years ago but I couldn't say so because of many reasons one of them is I am shy. I like your randomness, it's such a chaotic cute personality. Thank you for being my friend through this 6 years.")
+st.write("I also want to confess that I :heart: You, since years ago but I couldn't say so because of many reasons one of them is I am shy. I like your randomness, it's such a chaotic cute personality. Thank you for being my friend through this 6 years, I hope we can still connect to eachother.")
 
 with open('style.css') as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
