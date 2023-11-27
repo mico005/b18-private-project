@@ -20,12 +20,12 @@
   right: 1rem;
 }
 
-[data-testid="stVerticalBlock"]>[style*="flex-direction: column;"]>[data-testid="stVerticalBlock"] {
+/* [data-testid="stVerticalBlock"]>[style*="flex-direction: column;"]>[data-testid="stVerticalBlock"] {
     
     border-radius: 1em;
     overflow: auto;
 }
-
+ */
 div.css-1n76uvr.e1tzin5v0{
     padding: 0.25em;
     border-radius: 1em;
@@ -37,6 +37,19 @@ div.css-1n76uvr.e1tzin5v0{
 
 div.css-1n76uvr.e1tzin5v0 div{
     color: black;
+}
+
+div.css-2yw8m1.e1tzin5v0 {
+    padding: 0.25em;
+    border-radius: 1em;
+    overflow: auto;
+    /*background-color: #f0edd9;*/
+    background: rgb(122, 200, 240);
+    background: linear-gradient(180deg, rgba(122, 200, 240, 1) 50%, rgba(255, 253, 0, 1) 100%);
+}
+
+div.css-2yw8m1.e1tzin5v0{
+    color:black;
 }
 
 div.css-ocqkz7.e1tzin5v4 {
