@@ -14,7 +14,7 @@
 
 [data-testid="stHeader"] {
     background: rgb(254, 254, 254);
-    background: linear-gradient(180deg, rgba(254,254,254, .05) 0%, rgba(122, 201, 240, .05) 100%);
+    background: linear-gradient(180deg, rgba(254,254,254, .05) 0%, rgba(122, 201, 240, 0) 100%);
 }
 
 [data-testid="stToolbar"] {
