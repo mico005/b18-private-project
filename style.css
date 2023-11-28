@@ -36,6 +36,8 @@ div.block-container.css-12oz5g7.egzxvld2>div>div {
 }
 
 div.block-container.css-12oz5g7.egzxvld2>div>div div{
+    padding-inline-start: 0.5rem;
+    padding-inline-end: 0.5rem;
     color: black;
 }
 

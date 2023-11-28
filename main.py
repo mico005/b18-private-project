@@ -37,7 +37,7 @@ with st.container():
 
 st.title("Our Photos")
 
-st.write("Disini Aku punya beberapa foto yang mungkin bisa kita kenang sama-sama.")
+st.write("Disini Aku punya beberapa foto yang mungkin bisa kita kenang sama-sama, baca juga captionnya yaww.")
 
 col1, col2 = st.columns(2, gap="small")
 
