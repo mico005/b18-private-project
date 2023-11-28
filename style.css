@@ -53,6 +53,10 @@ div.css-ocqkz7.e1tzin5v4 div{
     color:black;
 }
 
+div[data-testid="stImage"]>img{
+    border-radius: 25%;
+}
+
 /**@media (prefers-color-scheme: dark) {
     [data-testid="stAppViewContainer"] {
         background: rgb(254, 243, 179);
