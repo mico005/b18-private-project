@@ -77,7 +77,7 @@ with st.container():
     st.write("May you become a girl who obeys God words.")
     st.write("and May you also become a gorgeous adorable girl.")
 
-st.write("I also want to confess that I :heart: You, since years ago but I couldn't say so because of many reasons one of them is I am shy. I like your randomness, it's such a chaotic cute personality. Thank you for being my friend through this 6 years, I hope we can still connect to eachother forever.")
+st.write("I also want to confess that I :heart: You, since years ago but I couldn't say so because of many reasons one of them is I am shy. Kamu orangnya random sekalii, hal itu yang membuat kamu jadi lucu, karen ini juga aku suka kamu. Thank you for being my friend through this 6 years, I hope we can still connect to eachother forever.")
 
 st.write("Sincerely,")
 st.write("From your number one fans")
