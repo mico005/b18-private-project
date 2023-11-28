@@ -3,7 +3,7 @@
 }
 
 [data-testid="stAppViewContainer"]{
-  background-color: #7AC8F0;
+  background-color: #0d5c80;
   
   /*background: rgb(122,200,240);
   background: linear-gradient(360deg, rgba(122,200,240,1) 50%, rgba(255,253,0,1) 100%);*/
@@ -32,7 +32,7 @@ div.block-container.css-12oz5g7.egzxvld2>div>div {
     border-radius: 1em;
     /*background-color: #f0edd9;*/
     background: rgb(176,225,248);
-    background: linear-gradient(180deg, rgba(176,225,248,1) 0%, rgba(255,255,53,1) 80%);
+    background: linear-gradient(180deg, rgba(175, 225, 248, 1),rgba(255,255,53,1) 80%);
 }
 
 div.block-container.css-12oz5g7.egzxvld2>div>div div{
