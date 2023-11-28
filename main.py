@@ -1,5 +1,6 @@
 import streamlit as st
 import base64
+import time
 
 # Set the page title and icon
 st.set_page_config(page_title="HBD NAT!",
@@ -85,5 +86,5 @@ st.write("From your number one fans")
 with open('style.css') as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
-
+time.sleep(2)
 st.balloons()
