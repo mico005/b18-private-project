@@ -21,8 +21,6 @@ def autoplay_audio(file_path: str):
         )
 
 
-st.balloons()
-
 autoplay_audio('birthday_song.mp3')
 st.caption('Song: GMS Live - Happy Birthday')
 
@@ -83,3 +81,6 @@ st.write("I also want to confess that I :heart: You, since years ago but I could
 
 with open('style.css') as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
+
+
+st.balloons()
