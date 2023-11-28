@@ -40,7 +40,7 @@ div.block-container.css-12oz5g7.egzxvld2>div>div div{
 }
 
 /*Pictures box*/
-div.block-container>div[style*="display: flex;"]>div[data-testid="stHorizontalBlock"] {
+div.block-container>div[style*="display: flex; flex-direction: column;"]>div[data-testid="stHorizontalBlock"] {
     padding: 1em;
     border-radius: 1em;
     background: rgb(72,192,248);
