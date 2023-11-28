@@ -35,9 +35,10 @@ with st.container():
     st.write("Dan, kebetulan aku bisa buat website. Yah ini sih bukan apa-apa, soalnya aku juga masih belajar. Masih banyak orang-orang yang bisa buat website ini lebih menarik. Website ini aku buat untuk kamu sekaligus buat mengenang masa kalo kita pernah sekolah bareng.")
     st.write("Scroll sampe bawah ya, I've got you something little special. hehe")
 
-st.title("Our Photos")
+st.header("Our Photos")
 
-st.write("Disini Aku punya beberapa foto yang mungkin bisa kita kenang sama-sama, baca juga captionnya yaww.")
+st.subheader(
+    "Disini Aku punya beberapa foto yang mungkin bisa kita kenang sama-sama, baca juga captionnya yaww.")
 
 col1, col2 = st.columns(2, gap="small")
 
@@ -69,13 +70,13 @@ with col2:
 st.write("Sebenernya sih masih banyak lagi, tapi menurutku itu aja sih yang bagus. Semoga ini memberimu kesan walau hanya hal sederhana.")
 
 with st.container():
-    st.title("Birthday Wishes")
-    st.write("For your 18th birthday today, I wish you well.")
-    st.write("May God always bless you now and your future. ")
-    st.write("May He also bless your family and your friends all around you.")
-    st.write("May you get what you've been wishing for.")
-    st.write("May you become a girl who obeys God words.")
-    st.write("and May you also become a gorgeous adorable girl.")
+    st.header("Birthday Wishes")
+    st.text("For your 18th birthday today, I wish you well.")
+    st.text("May God always bless you now and your future. ")
+    st.text("May He also bless your family and your friends all around you.")
+    st.text("May you get what you've been wishing for.")
+    st.text("May you become a girl who obeys God words.")
+    st.text("and May you also become a gorgeous adorable girl.")
 
 st.write("I also want to confess that I :heart: You, since years ago but I couldn't say so because of many reasons one of them is I am shy. I like your randomness, it's such a chaotic cute personality. Thank you for being my friend through this 6 years, I hope we can still connect to eachother forever.")
 
