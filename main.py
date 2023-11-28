@@ -77,7 +77,10 @@ with st.container():
     st.write("May you become a girl who obeys God words.")
     st.write("and May you also become a gorgeous adorable girl.")
 
-st.write("I also want to confess that I :heart: You, since years ago but I couldn't say so because of many reasons one of them is I am shy. I like your randomness, it's such a chaotic cute personality. Thank you for being my friend through this 6 years, I hope we can still connect to eachother.")
+st.write("I also want to confess that I :heart: You, since years ago but I couldn't say so because of many reasons one of them is I am shy. I like your randomness, it's such a chaotic cute personality. Thank you for being my friend through this 6 years, I hope we can still connect to eachother forever.")
+
+st.write("Sincerely,")
+st.write("From your number one fans")
 
 with open('style.css') as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
