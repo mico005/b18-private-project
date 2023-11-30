@@ -77,7 +77,7 @@ with st.container():
     st.write("May you become a girl who obeys God words.")
     st.write("and May you also become a gorgeous adorable girl.")
 
-st.write("I also want to confess that I :heart: You, iya, aku suka kamu. Sebenernya sihh dari udah lama, mungkin smp? entah lah. Kenapa baru sekarang aku ungkapin?. Kamu orangnya random sekalii, hal ini yang membuat kamu jadi unyuu, karena ini juga aku suka kamu. Thank you for being my friend through this 6 years, I hope we can still connect to eachother forever.")
+st.write("I also want to confess that I :heart: You, iya, aku suka kamu. Sebenernya sihh dari udah lama, mungkin smp? entah lah. Kenapa baru sekarang aku ungkapin? Karena Tuhan baru ngasih kesempatan sekarang, kalau bukan karena Dia juga aku ngak bakal ungkapin. Kamu orangnya random sekalii, hal ini yang membuat kamu jadi unyuu, karena ini juga aku suka kamu. Thank you for being my friend through this 6 years, I hope we can still connect to eachother forever.")
 
 st.write("Sincerely,")
 st.write("From your number one fans")
