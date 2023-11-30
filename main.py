@@ -3,7 +3,7 @@ import base64
 
 # Set the page title and icon
 st.set_page_config(page_title="HBD NAT!",
-                   page_icon=":heart:", layout="centered")
+                   page_icon="🎉", layout="centered")
 
 
 def autoplay_audio(file_path: str):
