@@ -28,7 +28,7 @@ st.title("Haii Nat!")
 
 with st.container():
 
-    st.write("Kamu pasti bingung sama link yang aku bagiin, ya kan? Jadi, ini tu kado ultah buat kamu. Happy birthday yah!")
+    st.write("Kamu pasti bingung sama link yang aku bagiin, ya kan? Mungkin kamu udah baca dari nama linknya juga. Ya jadi, ini tu kado ultah buat kamu. Happy birthday yah!")
     st.write(
         "Btw, kalo musiknya blom mulai bisa di play di atas. Gedein volumenya sekalian ya 😉")
     st.write("Selama 6 tahun kita kenalan kayaknya aku ngak pernah ngucapin ultah ke kamu, ya kan? hehe maap yah. Tapi meskipun begitu, aku inget ultahmu kapan kok. Tahun ini aku udah mikirin kado apa yang cocok buat kamu, sesuatu yang bisa kita kenang sama-sama.")
