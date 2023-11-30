@@ -33,7 +33,7 @@ with st.container():
         "Btw, kalo musiknya blom mulai bisa di play di atas. Gedein volumenya sekalian ya 😉")
     st.write("Selama 6 tahun kita kenalan kayaknya aku ngak pernah ngucapin ultah ke kamu, ya kan? hehe maap yah. Tapi meskipun begitu, aku inget ultahmu kapan kok. Tahun ini aku udah mikirin kado apa yang cocok buat kamu, sesuatu yang bisa kita kenang sama-sama.")
     st.write("Dan, kebetulan aku bisa buat website. Yah ini sih bukan apa-apa, soalnya aku juga masih belajar. Masih banyak orang-orang yang bisa buat website ini lebih menarik. Website ini aku buat untuk kamu sekaligus buat mengenang masa kalo kita pernah sekolah bareng.")
-    st.write("Scroll sampe bawah ya, I've got you something little special. hehe")
+    st.write("Scroll sampe bawah ya, I've got you something little special.")
 
 st.header("Our Photos")
 
@@ -66,7 +66,7 @@ with col2:
     st.image("./img/NAT_7.jpg", caption="Emang bole secantik itu?")
 
 
-st.write("Sebenernya sih masih banyak lagi, tapi menurutku itu aja sih yang bagus. Semoga ini memberimu kesan walau hanya hal sederhana.")
+st.write("Sebenernya sih masih banyak lagi, tapi menurutku itu aja yang bagus. Semoga ini memberimu kesan walau hanya hal sederhana.")
 
 with st.container():
     st.header("Birthday Wishes")
@@ -77,7 +77,7 @@ with st.container():
     st.write("May you become a girl who obeys God words.")
     st.write("and May you also become a gorgeous adorable girl.")
 
-st.write("I also want to confess that I :heart: You, iya, aku suka kamu. Sebenernya sihh dari udah lama, mungkin smp? entah lah. Kenapa baru sekarang aku ungkapin? Karena Tuhan baru ngasih kesempatan sekarang, kalau bukan karena Dia juga aku ngak bakal ungkapin. Kamu orangnya random sekalii, hal ini yang membuat kamu jadi unyuu, karena ini juga aku suka kamu. Thank you for being my friend through this 6 years, I hope we can still connect to eachother forever.")
+st.write("I also want to confess that I :heart: You, iya, aku suka kamu. Sebenernya sihh udah dari lama, mungkin smp? entah lah. Kenapa baru sekarang aku ungkapin? Karena Tuhan baru ngasih kesempatan sekarang, kalau bukan karena Dia juga aku ngak bakal ungkapin. Kamu itu orangnya random sekalii, ini lah yang membuat kamu jadi unyuu, karena ini juga aku suka kamu. Sebagai penutup, aku cuman mau bilang terimakasih udah jadi temenku selama 6 tahun ini, semoga kita bisa semakin deket dan ngak akan hilang kontak kedepannya.")
 
 st.write("Sincerely,")
 st.write("From your number one fans")
