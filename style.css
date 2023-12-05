@@ -59,7 +59,7 @@ div[data-testid="stImage"]>img{
     border-radius: 5%;
 }
 
-#hii-nat{
+#hii-nat > div{
     display:grid;
     place-items: center;
 }
