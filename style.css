@@ -59,6 +59,11 @@ div[data-testid="stImage"]>img{
     border-radius: 5%;
 }
 
+#hii-nat{
+    display:grid;
+    place-items: center;
+}
+
 /**@media (prefers-color-scheme: dark) {
     [data-testid="stAppViewContainer"] {
         background: rgb(254, 243, 179);
