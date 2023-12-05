@@ -61,7 +61,8 @@ div[data-testid="stImage"]>img{
 
 #hii-nat > div{
     display:grid;
-    place-items: center;
+    align-items: center;
+    justify-content: center;
 }
 
 /**@media (prefers-color-scheme: dark) {
