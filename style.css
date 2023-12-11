@@ -37,7 +37,7 @@ div.block-container.css-12oz5g7.egzxvld2>div>div div{
 
 [data-testid="stVerticalBlock"]>[style*="flex-direction: column;"]>[data-testid="stVerticalBlock"] {
     background-color: #FFD700;
-    border-radius: 1em;
+    box-sizing: border-box;
     overflow: auto;
 }
 
