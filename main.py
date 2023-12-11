@@ -78,7 +78,7 @@ with st.container():
     st.write("and May you also become a gorgeous adorable girl.")
 
 st.write("I also want to confess that I :heart: You, iya, aku suka kamu. Sebenernya sihh udah dari lama, mungkin smp? entah lah. Kenapa baru sekarang aku ungkapin? Karena Tuhan baru ngasih kesempatan sekarang, kalau bukan karena Dia juga aku ngak bakal ungkapin. Kamu itu orangnya random sekalii, ini lah yang membuat kamu jadi unyuu, karena ini juga aku suka kamu. Sebagai penutup, aku cuman mau bilang terimakasih udah jadi temenku selama 6 tahun ini, semoga kita bisa semakin deket dan ngak akan hilang kontak kedepannya.")
-st.write("Oh ya, Selamat hari Natal dan Tahun baru juga ya.")
+st.write("Oh ya, Selamat Natal dan Tahun baru juga ya.")
 
 st.write("Sincerely,")
 st.write("From your number one fans")
