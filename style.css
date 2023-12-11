@@ -23,12 +23,6 @@
   right: 1rem;
 }
 
-/* [data-testid="stVerticalBlock"]>[style*="flex-direction: column;"]>[data-testid="stVerticalBlock"] {
-    
-    border-radius: 1em;
-    overflow: auto;
-}
- */
 div.block-container.css-12oz5g7.egzxvld2>div>div {
     padding: 0.25em;
     border-radius: 1em;
@@ -39,6 +33,12 @@ div.block-container.css-12oz5g7.egzxvld2>div>div {
 
 div.block-container.css-12oz5g7.egzxvld2>div>div div{
     color: black;
+}
+
+[data-testid="stVerticalBlock"]>[style*="flex-direction: column;"]>[data-testid="stVerticalBlock"] {
+
+    border-radius: 1em;
+    overflow: auto;
 }
 
 /*Pictures box*/
