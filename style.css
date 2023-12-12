@@ -1,7 +1,7 @@
 :root {
     --primary-color: #001F3F;
     --accent-color: #FFD700;
-    --third-color: #CCCCCC;
+    --third-color: #e2e2e2;
 }
 
 [data-testid="stAppViewContainer"]{
