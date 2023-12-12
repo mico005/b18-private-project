@@ -52,7 +52,7 @@ div.css-ocqkz7.e1tzin5v4 {
     background-color: var(--accent-color);
 }
 
-div.css-ocqkz7.e1tzin5v4 div{
+div[data-testid="stImage"]>div[data-testid="caption"]{
     color: var(--primary-color);
 }
 
