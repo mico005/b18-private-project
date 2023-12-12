@@ -1,17 +1,17 @@
 :root {
-    --bg-color: #001F3F;
+    --primary-color: #001F3F;
     --accent-color: #FFD700;
     --third-color: #4682B4;
 }
 
 [data-testid="stAppViewContainer"]{
-  background-color: var(--bg-color);
+  background-color: var(--primary-color);
   
   /*background: rgb(122,200,240);
   background: linear-gradient(360deg, rgba(122,200,240,1) 50%, rgba(255,253,0,1) 100%);*/
 } 
 [data-testid="stAppViewContainer"] div{
-    color: black;
+    color: var(--accent-color);
 }
 
 [data-testid="stHeader"] {
@@ -34,14 +34,14 @@ div.block-container.css-12oz5g7.egzxvld2>div>div {
 
 div.block-container.css-12oz5g7.egzxvld2>div>div>div>div {
     padding: .25em;
+    background-color: var(--accent-color);
 }
 
 div.block-container.css-12oz5g7.egzxvld2>div>div div{
-    color: black;
+    color: var(--primary-color);
 }
 
 [data-testid="stVerticalBlock"]>[style*="flex-direction: column;"]>[data-testid="stVerticalBlock"] {
-    background-color: #FFD700;
     box-sizing: border-box;
     overflow: hidden;
 }
@@ -50,10 +50,11 @@ div.block-container.css-12oz5g7.egzxvld2>div>div div{
 div.css-ocqkz7.e1tzin5v4 {
     padding: 1em;
     border-radius: 1em;
+    background-color: var(--accent-color);
 }
 
 div.css-ocqkz7.e1tzin5v4 div{
-    color:black;
+    color: var(--);
 }
 
 div[data-testid="stImage"]>img{
