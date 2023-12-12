@@ -58,7 +58,7 @@ div[data-testid="stImage"]>div[data-testid="caption"]{
 
 div[data-testid="stImage"]>img{
     border-radius: 5%;
-    border: 1px solid var(--third-color);
+    border: 5px solid var(--third-color);
 }
 
 #haii-nat > div{
