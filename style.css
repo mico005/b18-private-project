@@ -11,7 +11,7 @@
   background: linear-gradient(360deg, rgba(122,200,240,1) 50%, rgba(255,253,0,1) 100%);*/
 } 
 [data-testid="stAppViewContainer"] div{
-    color: var(--accent-color);
+    color: var(--third-color);
 }
 
 [data-testid="stHeader"] {
