@@ -21,13 +21,11 @@ def autoplay_audio(file_path: str):
         )
 
 
-autoplay_audio('birthday_song.mp3')
-st.caption('Song: GMS Live - Happy Birthday')
-
-st.title("Haii Nat!")
-
 with st.container():
+    autoplay_audio('birthday_song.mp3')
+    st.caption('Song: GMS Live - Happy Birthday')
 
+    st.title("Haii Nat!")
     st.write("Kamu pasti bingung sama link yang aku bagiin, ya kan? Mungkin kamu udah baca dari nama linknya juga. Ya jadi, ini tu kado ultah buat kamu. Happy birthday yah!")
     st.write(
         "Btw, kalo musiknya blom mulai bisa di play di atas. Gedein volumenya sekalian ya 😉")
