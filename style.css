@@ -1,5 +1,7 @@
 :root {
     --bg-color: #001F3F;
+    --accent-color: #FFD700;
+    --third-color: #4682B4;
 }
 
 [data-testid="stAppViewContainer"]{
@@ -25,9 +27,9 @@
 
 div.block-container.css-12oz5g7.egzxvld2>div>div {
     border-radius: 1em;
-    /*background-color: #f0edd9;*/
+    /*background-color: #f0edd9;*//* 
     background: rgb(176,225,248);
-    background: linear-gradient(180deg, rgba(175, 225, 248, 1),rgba(255,255,53,1) 80%);
+    background: linear-gradient(180deg, rgba(175, 225, 248, 1),rgba(255,255,53,1) 80%); */
 }
 
 div.block-container.css-12oz5g7.egzxvld2>div>div>div>div {
@@ -48,10 +50,6 @@ div.block-container.css-12oz5g7.egzxvld2>div>div div{
 div.css-ocqkz7.e1tzin5v4 {
     padding: 1em;
     border-radius: 1em;
-    background: rgb(72,192,248);
-    background: linear-gradient(180deg, rgba(72,192,248,1) 0%, rgba(255,253,0,1) 100%);
-    /**background: rgb(254, 243, 179);
-    background: linear-gradient(90deg, rgba(254, 243, 179, 1) 0%, rgba(240, 221, 122, 1) 100%);**/
 }
 
 div.css-ocqkz7.e1tzin5v4 div{
@@ -60,6 +58,7 @@ div.css-ocqkz7.e1tzin5v4 div{
 
 div[data-testid="stImage"]>img{
     border-radius: 5%;
+    border: 1px solid #4682B4;
 }
 
 #haii-nat > div{
