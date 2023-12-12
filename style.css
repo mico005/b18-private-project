@@ -37,7 +37,7 @@ div.block-container.css-12oz5g7.egzxvld2>div>div>div>div {
 }
 
 div.block-container.css-12oz5g7.egzxvld2>div>div div{
-    color: var(--accent-color);
+    color: var(--primary-color);
 }
 
 [data-testid="stVerticalBlock"]>[style*="flex-direction: column;"]>[data-testid="stVerticalBlock"] {
