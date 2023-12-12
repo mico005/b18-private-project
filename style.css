@@ -53,12 +53,12 @@ div.css-ocqkz7.e1tzin5v4 {
 }
 
 div.css-ocqkz7.e1tzin5v4 div{
-    color: var(--);
+    color: var(--primary-color);
 }
 
 div[data-testid="stImage"]>img{
     border-radius: 5%;
-    border: 1px solid #4682B4;
+    border: 1px solid var(--third-color);
 }
 
 #haii-nat > div{
