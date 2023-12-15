@@ -4,8 +4,19 @@
     --third-color: #e2e2e2;
 }
 
-body{
+.main{
+    overflow-wrap: anywhere;
+    /* overflow-x: hidden */;
+}
+
+.main>div {
+    min-width: 100svw;
     box-sizing: content-box;
+    
+}
+
+.main>div>div>div>div {
+    box-sizing: border-box;
 }
 
 [data-testid="stAppViewContainer"]{
@@ -26,11 +37,12 @@ body{
 }
 
 [data-testid="stToolbar"] {
-  right: 1rem;
+  right: 1em;
 }
 
 div.block-container.css-12oz5g7.egzxvld2>div>div {
     border-radius: 1em;
+    box-sizing: border-box;
     /*background-color: #f0edd9;*//* 
     background: rgb(176,225,248);
     background: linear-gradient(180deg, rgba(175, 225, 248, 1),rgba(255,255,53,1) 80%); */
@@ -45,7 +57,8 @@ div.block-container.css-12oz5g7.egzxvld2>div>div>div>div{
 }
 
 [data-testid="stVerticalBlock"]>[style*="flex-direction: column;"]>[data-testid="stVerticalBlock"] {
-    box-sizing: border-box;
+    margin-inline-start: .75em;
+    margin-inline-end: 5em;
     overflow: hidden;
 }
 
