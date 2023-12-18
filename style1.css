@@ -77,7 +77,7 @@ div.element-container.css-148fogg.e1tzin5v3>div.stMarkdown>div>p::first-letter{
 /*Pictures box*/
 div.css-ocqkz7.e1tzin5v4 {
     box-shadow: 0 0 0 100vmax var(--secondary-color);
-    clip-path: inset(0 -100vmax)
+    clip-path: inset(0 100vmax)
     /* background: rgb(72,192,248);
     background: linear-gradient(180deg, rgba(72,192,248,1) 0%, rgba(255,253,0,1) 100%); */
     /**background: rgb(254, 243, 179);
