@@ -93,14 +93,15 @@ with st.container():
     st.write("May you get what you've been wishing for.")
     st.write("May you become a girl who obeys God words.")
     st.write("and May you also become a gorgeous adorable girl.")
-    st.write("I also want to confess that I :heart: You, iya, aku suka kamu. Sebenernya sihh udah dari lama, mungkin smp? entah lah. Kenapa baru sekarang aku ungkapin? Karena Tuhan baru ngasih kesempatan sekarang, kalau bukan karena Dia juga aku ngak bakal ungkapin. Kamu itu orangnya random sekalii, ini lah yang membuat kamu jadi unyuu, karena ini juga aku suka kamu. Sebagai penutup, aku cuman mau bilang terimakasih udah jadi temenku selama 6 tahun ini, semoga kita bisa semakin deket dan ngak akan hilang kontak kedepannya.")
+    st.write("I also want to confess that I :heart: You, iya, aku suka kamu. Sebenernya sihh udah dari lama, mungkin smp? entah lah. Kenapa baru sekarang aku ungkapin? Karena Tuhan baru ngasih kesempatan sekarang, kalau bukan karena Dia juga aku ngak bakal ungkapin.")
+    st.write("""Kamu itu orangnya random, "gila" - dalam arti yang positif. Unyu kayak boneka, indah kayak bunga mawar, dan masih banyak lagi kata-kata yang bisa menggambarkanmu. Yah walaupun ini cuman tulisan, aku cuman mau bilang terimakasih udah jadi temenku selama 6 tahun ini, semoga kita bisa semakin deket dan ngak akan hilang kontak kedepannya.""")
     st.write("Oh ya, Selamat Natal dan Tahun baru juga ya.")
 
     st.write("Sincerely,")
-    st.write("From your number one fans")
+    st.write("From your number one fans 🤟")
 
 
-with open('style1.css') as f:
+with open('style.css') as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
 st.markdown("<script>console.log('hello')</script>", unsafe_allow_html=True)
