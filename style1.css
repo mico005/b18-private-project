@@ -58,11 +58,11 @@ div.block-container.css-12oz5g7.egzxvld2>div>div>div{
 }
 
 [data-testid="stVerticalBlock"]>[style*="flex-direction: column;"]>[data-testid="stVerticalBlock"] {
-    padding-block-start: 1em;
+    /*padding-block-start: 1em;
     padding-block-end: 1em;
     padding-inline-start: .25em;
     background-color: var(--secondary-color);
-    border-radius: 1em;
+    border-radius: 1em;*/
 }
 
 [data-testid="stVerticalBlock"]>[style*="flex-direction: column;"]>[data-testid="stVerticalBlock"]>div>div>div>p {
@@ -76,8 +76,6 @@ div.element-container.css-148fogg.e1tzin5v3>div.stMarkdown>div>p::first-letter{
 
 /*Pictures box*/
 div.css-ocqkz7.e1tzin5v4 {
-  max-width: 100%;
-  display: block;
     box-shadow: 0 0 0 100vmax var(--secondary-color);
     clip-path: inset(0 -100vmax);
     background-color: var(--secondary-color);
