@@ -76,7 +76,7 @@ div.element-container.css-148fogg.e1tzin5v3>div.stMarkdown>div>p::first-letter{
 
 /*Pictures box*/
 div.css-ocqkz7.e1tzin5v4 {
-
+    box-shadow: 0 0 0 100vmax;
     padding: 1em;
     border-radius: 1em;
     background-color: var(--secondary-color);
