@@ -76,6 +76,7 @@ div.element-container.css-148fogg.e1tzin5v3>div.stMarkdown>div>p::first-letter{
 
 /*Pictures box*/
 div.css-ocqkz7.e1tzin5v4 {
+  display: block;
     box-shadow: 0 0 0 100vmax var(--secondary-color);
     clip-path: inset(0 -100vmax);
     background-color: var(--secondary-color);
