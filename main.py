@@ -57,13 +57,8 @@ image_n_caption = [
 
 col1, col2 = st.columns(2, gap="small")
 
-with st.container():
-    with col1:
-        st.header("Our Photos")
-        st.write(
-            "Disini Aku punya beberapa foto yang mungkin bisa kita kenang sama-sama, baca juga captionnya yaww.")
-      @st.cache_data
-      def images():
+@st.cache_data
+    def images():
         st.image("./img/NAT_18.jpg",
                  caption="Baru nyadar aku punya double chin, tapi gpp soalnya disini kamu cantik soalnya, hehe.")
         st.image("./img/NAT_11.jpg",
@@ -76,11 +71,9 @@ with st.container():
                  caption="Kok kamu ucul sihh, emang bole serandom itu?")
         st.image("./img/NAT_13.jpg",
                  caption="Gendut? enggak kok, aku bilang ini gemoyy 🥰")
-      images()
 
-    with col2:
-      @st.cache_data
-      def images()
+@st.cache_data
+    def images1()
         st.image("./img/NAT_16.jpg",
                  caption="Keren uga foto kita 😎")
         st.image("./img/NAT_12.jpg", caption="Pose salam 2 jari, check ✅")
@@ -89,7 +82,16 @@ with st.container():
                  caption="Apa persamaan kamu sama nata de coco? ya sama-sama manis lah. hehe")
         st.image("./img/NAT_21.jpg", caption="Kece abiezz ketua satu ini")
         st.image("./img/NAT_7.jpg", caption="Emang bole secantik itu?")
-      images()
+
+with st.container():
+    with col1:
+        st.header("Our Photos")
+        st.write(
+            "Disini Aku punya beberapa foto yang mungkin bisa kita kenang sama-sama, baca juga captionnya yaww.")
+        images()
+
+    with col2:
+        images1()
 
 with st.container():
     st.header("Birthday Wishes")
