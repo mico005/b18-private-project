@@ -57,41 +57,33 @@ image_n_caption = [
 
 col1, col2 = st.columns(2, gap="small")
 
-@st.cache(suppress_st_warning=True)
-def images():
-      st.image("./img/NAT_18.jpg",
-                 caption="Baru nyadar aku punya double chin, tapi gpp soalnya disini kamu cantik soalnya, hehe.")
-      st.image("./img/NAT_11.jpg",
-                 caption="Aku kalo punya kumis kek om-om gitu yah.")
-      st.image("./img/NAT_8.jpg",
-                 caption="Kaku amat om-om satu ni.")
-      st.image("./img/NAT_19.jpg",
-                 caption="Maap yah, ini aku ss dari story kelasmu dulu 😝")
-      st.image("./img/NAT_2.jpg",
-                 caption="Kok kamu ucul sihh, emang bole serandom itu?")
-      st.image("./img/NAT_13.jpg",
-                 caption="Gendut? enggak kok, aku bilang ini gemoyy 🥰")
-
-@st.cache(suppress_st_warning=True)
-def images1():
-    st.image("./img/NAT_16.jpg",
-                 caption="Keren uga foto kita 😎")
-    st.image("./img/NAT_12.jpg", caption="Pose salam 2 jari, check ✅")
-    st.image("./img/NAT_6.jpg", caption="Keknya aku sok cuek banget yah.")
-    st.image("./img/NAT_15.jpg",
-                 caption="Apa persamaan kamu sama nata de coco? ya sama-sama manis lah. hehe")
-    st.image("./img/NAT_21.jpg", caption="Kece abiezz ketua satu ini")
-    st.image("./img/NAT_7.jpg", caption="Emang bole secantik itu?")
-
 with st.container():
     with col1:
         st.header("Our Photos")
         st.write(
             "Disini Aku punya beberapa foto yang mungkin bisa kita kenang sama-sama, baca juga captionnya yaww.")
-        images()
+        st.image("./img/NAT_18.jpg",
+                 caption="Baru nyadar aku punya double chin, tapi gpp soalnya disini kamu cantik soalnya, hehe.")
+        st.image("./img/NAT_11.jpg",
+                 caption="Aku kalo punya kumis kek om-om gitu yah.")
+        st.image("./img/NAT_8.jpg",
+                 caption="Kaku amat om-om satu ni.")
+        st.image("./img/NAT_19.jpg",
+                 caption="Maap yah, ini aku ss dari story kelasmu dulu 😝")
+        st.image("./img/NAT_2.jpg",
+                 caption="Kok kamu ucul sihh, emang bole serandom itu?")
+        st.image("./img/NAT_13.jpg",
+                 caption="Gendut? enggak kok, aku bilang ini gemoyy 🥰")
 
     with col2:
-        images1()
+        st.image("./img/NAT_16.jpg",
+                 caption="Keren uga foto kita 😎")
+        st.image("./img/NAT_12.jpg", caption="Pose salam 2 jari, check ✅")
+        st.image("./img/NAT_6.jpg", caption="Keknya aku sok cuek banget yah.")
+        st.image("./img/NAT_15.jpg",
+                 caption="Apa persamaan kamu sama nata de coco? ya sama-sama manis lah. hehe")
+        st.image("./img/NAT_21.jpg", caption="Kece abiezz ketua satu ini")
+        st.image("./img/NAT_7.jpg", caption="Emang bole secantik itu?")
 
 with st.container():
     st.header("Birthday Wishes")
