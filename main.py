@@ -57,7 +57,7 @@ image_n_caption = [
 
 col1, col2 = st.columns(2, gap="small")
 
-@st.cache_data
+@st.cache
 def images():
       st.image("./img/NAT_18.jpg",
                  caption="Baru nyadar aku punya double chin, tapi gpp soalnya disini kamu cantik soalnya, hehe.")
@@ -72,7 +72,7 @@ def images():
       st.image("./img/NAT_13.jpg",
                  caption="Gendut? enggak kok, aku bilang ini gemoyy 🥰")
 
-@st.cache_data
+@st.cache
 def images1():
     st.image("./img/NAT_16.jpg",
                  caption="Keren uga foto kita 😎")
