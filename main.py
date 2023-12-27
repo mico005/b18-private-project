@@ -73,7 +73,7 @@ def images():
                  caption="Gendut? enggak kok, aku bilang ini gemoyy 🥰")
 
 @st.cache_data
-def images1()
+def images1():
     st.image("./img/NAT_16.jpg",
                  caption="Keren uga foto kita 😎")
     st.image("./img/NAT_12.jpg", caption="Pose salam 2 jari, check ✅")
